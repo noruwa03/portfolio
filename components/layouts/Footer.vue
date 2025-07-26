@@ -9,11 +9,11 @@ const resumeLink =
 <template>
   <footer class="lg:px-16 sm:px-8 px-4 lg:pt-20 pt-16 lg:pb-16 pb-8">
     <h2
-      class="sm:text-5xl text-4xl text-[#0591FF] font-medium text-center mb-5"
+      class="sm:text-5xl text-4xl text-[#0591FF] font-semibold text-center mb-5"
     >
       Resumé
     </h2>
-    <p class="sm:text-base text-center dark:text-[#FAFAFA] mb-8">
+    <p class="text-lg text-center dark:text-[#FAFAFA] mb-8">
       Reach out to me by scheduling a meeting through the “Connect with me” button.
       <a
         :href="resumeLink"
